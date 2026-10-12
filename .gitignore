@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Training outputs
+outputs/
+checkpoint-*/
+runs/
+
+# Hugging Face / model caches
+.cache/
+huggingface/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Local merged models
+qwen-decisions/
+qwen-decisions-merged/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
